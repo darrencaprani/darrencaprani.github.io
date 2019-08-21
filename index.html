@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Wrip and Wrap</title>
+        <meta name="description" content="Wrip and Wrap your gifts">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="wripnwrap.com" />
+        <meta name="twitter:title" content="Wrip and Wrap" />
+        <meta name="twitter:description" content="Wrip and Wrap you Christmas Gifts with Digitas LBi." />
+        <meta name="twitter:image" content="http://wripnwrap.com/img/wrip-and-wrap.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Wrip and Wrap"/>
+        <meta property="og:image" itemprop="image primaryImageOfPage" content="http://wripnwrap.com/img/wrip-and-wrap.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <script src="js/modernizr-2.8.3.min.js"></script>
+        <link rel="shortcut icon"
+              href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAB/mBoEf5gaBH+YGgJ/mBoCf5gaAn+YGgJ3jRgIK0hEahlEXJU3QgseUmIRDoihHAJ/mBoCf5gaAgAAAAAAAAAAf5gaBH+YGgh/mBoKf5gaBn+YGgh/mBoMYY0fFgIQiv8Ta6jrPUwNGHKIFxB5kRgIf5gaDH+YGgZ/mBoCAAAAAAAAAAB/mBoMf5gaFH+YGhKCmRkaf5gaHClRCbUGHEX7DTWG3Vx2F0JrfhZARFEOGEdVDhJXaBIGgJkaBAAAAAAAAAAAf5gaDmyZJDpklCCD3ejO/2+lT/+bu4b/KnoS/7DOpP9PdTT/r7ye/4iUcv+AimehPEcRIFVlEQYAAAAAAAAAAG6kQSwkhAr/GloI/zGVC/8xbgD/MHYd/wW9tf8A2/T/GdDw/zq/0/8Op7r/aMvc/waVpPk8SAwIAAAAAAAAAAB/mBoGfZkbIk6+L/9iwJ3/ANP4/zKVU/8ZgQj/EXIA/xxbAP8gRAD/HDoA/xw/Af8yOhEiWWoSCAAAAAAAAAAAf5gaAn+YGhC1w3xOPbBR/yp8AP8gdAD/EHoA/xByAP8fVwD/I0UD/xs+AP83PxAuOUQMFHSLGAQAAAAAAAAAAAAAAAB+lxoGhJsdLhlgBf0aawD/R4E5/wjS1f8A4fr/Qszb/5K5kv9XlYX3aHtLPF5wFAp/mBoEAAAAAAAAAAAAAAAAf5gaBH+YGg6Kvn3xV971/wurnv9FqUP/GWoA/ytWC/8gRAD/Y35T8X2DZyBzihcEf5gaAgAAAAAAAAAAAAAAAAAAAAB/mBoG0NmtQFOmPfsleQD/GHQA/xVrAP8jTgD/I08C/zY+FSJabBIKf5gaBAAAAAAAAAAAAAAAAAAAAAAAAAAAf5gaBH+YGRYgZwfxDlsY/2zTr/9i4M7/Eay9/2iNd6k8RwwSeZAZCH+YGgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCmh8IxNe1n1zR2v8XeQD/FnME/zhjGP9IXSBWXW8TCH+YGgYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfpcYBperRRpJoRvLJ4cL/2SdR/+aq43RSlgPFH6XGgYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/mBoIcJkmLjvA8f8s4Pr/R10hLl1vEwp/mBoCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf5gaAnWGDBwt3fr/Ktj3/0xGABZqfxYCAAAAAAAAAAAAAAAAAAAAAH+YGgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzhiMEzta3fIyVYTRGUw4GAAAAAAAAAAAAAAAAf5gaAn+YGgJ/mBoC/38AAP5/AAD8fwAA4AcAAMADAADgBwAA8A8AAPAPAADwDwAA+B8AAPgfAAD4PwAA/D8AAP5/AAD+fwAA//8AAA=="/>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="flipbook-viewport">
+            <div class="container">
+                <div class="flipbook">
+                    <canvas id="WrappingPaper1"></canvas>
+                    <canvas id="WrappingPaper2"></canvas>
+                </div>
+            </div>
+            <div class="tear-div"></div>
+        </div>
+        <canvas id="triangle-overlay"></canvas>
+        <div class="buttons">
+            <a href="#" id="info-button">
+                <span class="icon icon-buttons-011" ></span>
+            </a>
+            <a  href="#" id="download-button">
+                <span class="icon icon-buttons-021" ></span>
+            </a>
+            <a  href="#" id="share-button" class="addthis_button_expanded">
+                <span class="icon icon-buttons-031" ></span>
+            </a>
+            <a  href="http://www.digitaslbi.com/mena/">
+                <span class="icon icon-buttons-041"></span>
+            </a>
+
+
+
+
+            <!--<a href="#" class="addthis_button_expanded at300m" target="_blank" title="View more services">SHARE</a>-->
+        </div>
+
+            <img class="main-pop-up" src="/img/Welcome_message-02.svg" alt="Welcome Message" />
+
+
+
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+
+        <div style="font-family:wrip-wrap;opacity: 0;z-index: -10; position: absolute;top:0;">&nbsp;</div>
+        <audio>
+            <source src="mp3/tear1.mp3" type="audio/mpeg">
+        </audio>
+        <audio>
+            <source src="mp3/tear2.mp3" type="audio/mpeg">
+        </audio>
+        <audio>
+            <source src="mp3/unicorn.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="swoosh">
+            <source src="mp3/swoosh.mp3" type="audio/mpeg">
+        </audio>
+
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/turn.js"></script>
+        <script src="js/main.js"></script>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5672ab0e0d9f212c#async=1" async="async"></script>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+
+    </body>
+</html>
